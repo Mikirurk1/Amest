@@ -1,0 +1,16 @@
+
+.dialog{
+padding: 10px;
+}
+.dialog a{
+    text-decoration: none;
+color:white;
+border-bottom: 2px black solid;
+}
+
+.dialog a.activeMessage{
+    border-radius: 10px;
+    padding: 10px 30px 10px 10px;
+    background: linear-gradient(90deg,rgb(58,38,75),rgba(58, 38, 75, 0));
+    color: aliceblue;
+}

@@ -1,0 +1,121 @@
+.followButton {
+   color: #3399FF;
+   font-family: "Helvetica";
+   font-size: 10pt;
+   background: linear-gradient( rgb(58,35,94), rgb(46,32,75));
+   border: 1px solid;
+   border-color: #3399FF;
+   border-radius: 3px;
+   width: 85px;
+   height: 30px;
+   top: 50px;
+   left: 50px;
+   cursor: hand;
+   margin: 10px;
+   transition: box-shadow 0.5s;
+   cursor: pointer;
+}
+
+.followButton:hover{
+   box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(91,58,151, 0.5), .125rem .125rem 1rem rgba(195,150,248, 0.5);
+}
+:export {
+  followButton: followButton;
+}
+
+
+.imgUsers {
+   width: 100px;
+   border-radius: 10px;
+}
+
+:export {
+   imgUsers:imgUsers;
+}
+
+.imgPagination {
+   width: 25px;
+}:export{
+   imgPagination:imgPagination
+}
+
+.userContainer {
+   display: flex;
+   background:linear-gradient( rgb(53,47,75), rgb(45,40,62)); 
+   margin: 10px;
+   padding: 10px;
+   border-radius: 15px;
+   box-shadow:  2px 2px 3px 0px;
+   justify-content: space-between;
+}:export {
+   userContainer:userContainer
+}
+
+.location {
+   color: #0a4354
+}:export {
+   location:location
+}
+
+.nickname {
+   font-size: 14pt;
+}:export {
+   nickname:nickname
+}
+
+.status {
+   padding: 20px;
+   margin: 20px;
+   border: #3399FF;
+   border-radius: 20px;
+}:export {
+   status:status
+}
+
+.pagesTool {
+   margin: 2px;
+   padding: 1px;
+}:export {
+   pagesTool:pagesTool
+}
+
+.selectedPage {
+   font-weight: bold;
+   font-size: 14pt;
+
+}:export {
+   selectedPage:selectedPage
+}
+
+.pagination {
+   display: flex;
+   gap: 4px;
+   margin-left: 40%;
+}:export {
+   pagination:pagination
+}
+
+.pagination>button {
+   display: grid;
+   place-items: center;
+   width: 34px;
+   height: 34px;
+   padding: 0;
+   border: 0;
+   border-radius: 3px;
+   background: #262528;
+   color: #f9f9f9;
+   cursor: pointer;
+}
+
+
+.pagination>button.active {
+   background: #8f44fd;
+}
+
+.pagination>button:disabled {
+   opacity: 0.25;
+}
+
+
+

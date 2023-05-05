@@ -1,0 +1,25 @@
+.nav {
+    grid-area: nav;
+    background: #201e2c;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow:  0px 0px 7px 0px ;
+  }
+  .item {
+  padding: 10px;
+  
+  
+
+  }
+  .item a{
+    text-decoration: none;
+    color:rgb(206, 206, 206);
+  }
+
+  .item a.activeLink{
+    border-radius: 20px;
+    padding: 10px 30px 10px 10px;
+    background: linear-gradient(90deg,rgb(58,38,75),rgba(58, 38, 75, 0)) ;
+    color: aliceblue;
+  }
+  

@@ -1,0 +1,19 @@
+.error textarea{
+    border: 1px#d45759 solid;
+    animation: shake 0.1635s 0s 3;
+}
+.error input{
+    border: 1px#d45759 solid;
+    animation: shake 0.1635s 0s 3;
+}
+
+.spanError{
+    color: #d45759;
+}
+
+@keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(8px); }
+    75% { transform: translateX(-8px); }
+    100% { transform: translateX(0); }
+  }

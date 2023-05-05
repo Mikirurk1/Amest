@@ -1,0 +1,66 @@
+.item{
+    display: grid;
+    grid-template-areas:
+    "head"
+    "main"
+    "footer" ;
+    background:linear-gradient( rgb(53,47,75), rgb(45,40,62));;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px 0 5px 0;
+    box-shadow: 0px 2px 4px 0px rgb(27, 25, 36);
+}
+.avatar{
+    height: 50px;
+    border-radius: 20px;
+}
+.heart {
+  transform: rotate(45deg);
+  width: 10px;
+  height: 5px;
+  border-radius: 25px 0 0 25px;
+  border: 3px solid #6432b0;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.heart::after {
+  content: "";
+  position: absolute;
+  top: -7.7px;
+  left: 2px;
+  height: 5px;
+  width: 5px;
+  border-radius: 25px 25px 0 0;
+  border: inherit;
+  border-bottom: transparent;
+}
+
+.heart,
+.heart::after {
+  background: #1d1e22;
+  transition: all 0.35s;
+}
+
+.heart:hover,
+.heart:hover::after {
+  background: #8f44fd;
+}
+.headPost{
+grid-area: head;
+display: flex; 
+justify-items: center;
+}
+.mainPost{
+    grid-area: main;
+}
+.footerPost{
+    grid-area: footer;
+    display: flex;
+    justify-items: center;
+}
+
+.postNickname{
+font-size: 15px;
+margin: 12px;
+}

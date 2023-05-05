@@ -1,0 +1,39 @@
+.settingsWraper {
+    display: grid;
+    margin: 0;
+    max-width: 100%;
+    min-height: 100vh;
+    grid-template-areas:
+        "settingsNav content";
+
+    grid-template-columns: 2fr 10fr;
+    grid-gap: 10px;
+}
+
+
+.settingsNav{
+    grid-area: settingsNav;
+    width: 100%;
+}
+
+
+.settingsContent {
+    grid-area: content;
+}
+.settingsNav a{
+    margin: 10px;
+    padding: 10px;
+    text-decoration: none;
+    color:white;
+    border-bottom: 2px black solid;
+}
+.settingsNav a.activeLink{
+    border-radius: 10px;
+    padding: 10px 30px 10px 10px;
+    background: linear-gradient(90deg,rgb(58,38,75),rgba(58, 38, 75, 0));
+    color: aliceblue;
+}
+.item{
+    margin: 0px 10px 10px 10px;
+    padding: 10px;
+}

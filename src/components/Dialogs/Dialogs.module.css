@@ -1,0 +1,20 @@
+.dialogs {
+  background: linear-gradient(90deg, #201e2c, rgb(52, 46, 73));
+  box-shadow: 0px 0px 7px 0px;
+  display: grid;
+  grid-template-columns: 2fr 10fr;
+  min-height: 100vh;
+  border-radius: 10px;
+
+}
+
+.dialogBlock {
+  padding: 10px;
+  display: flex;
+  width: 100%;
+}
+
+
+.messageBlock {
+  padding: 10px;
+}
