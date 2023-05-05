@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Amest/static/css/main.049e9015.css",
+    "main.js": "/Amest/static/js/main.5e5e7431.js",
+    "static/js/787.c6ca021b.chunk.js": "/Amest/static/js/787.c6ca021b.chunk.js",
+    "static/media/stockBG.jpg": "/Amest/static/media/stockBG.30b562aea81a38986bc2.jpg",
+    "static/media/stockAvatar.png": "/Amest/static/media/stockAvatar.8f76b1e3d198ed679123.png",
+    "static/media/last-page.ico": "/Amest/static/media/last-page.546f474f20b69b9f7df7.ico",
+    "static/media/first-page.ico": "/Amest/static/media/first-page.b1ec930f394769220b35.ico",
+    "static/media/settings.svg": "/Amest/static/media/settings.abf9bfc4e612506f57d375df5531c8a2.svg",
+    "index.html": "/Amest/index.html",
+    "static/media/attachment.svg": "/Amest/static/media/attachment.000e1b2db08f4bcc20a2a45ff0ef427e.svg",
+    "static/media/log-out.svg": "/Amest/static/media/log-out.eaa801c1bfe5f719641ad39c72320244.svg",
+    "main.049e9015.css.map": "/Amest/static/css/main.049e9015.css.map",
+    "main.5e5e7431.js.map": "/Amest/static/js/main.5e5e7431.js.map",
+    "787.c6ca021b.chunk.js.map": "/Amest/static/js/787.c6ca021b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.049e9015.css",
+    "static/js/main.5e5e7431.js"
+  ]
+}
