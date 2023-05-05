@@ -25,7 +25,7 @@ class App extends React.Component {
 
 
   render() {
-    if (!this.props.isInitialized) {return <div className='preloaderApp'>  <Preloader /> Hmmm......</div>}
+    // if (!this.props.isInitialized) {return <div className='preloaderApp'>  <Preloader /> Hmmm......</div>}
 return(
 <div>
       <Routes>
